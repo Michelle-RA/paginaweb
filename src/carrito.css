@@ -5,3 +5,33 @@ body{
 h1{
     color: white;
 }
+header{
+    display: flex;
+}
+
+.BgTitle{
+    color: #F94616 ;
+}
+
+.BgTitleW{
+    color: white;
+}
+
+#imagenes{
+    width: 20%;
+    height: 20%;
+}
+
+a{
+    text-decoration: none;
+    border-radius: 1px solid #F94616;
+}
+
+.titulos{
+    color: white;
+}
+
+.btnColor{
+    color: #ffffff;
+    background-color: #F94616;
+}
