@@ -1,12 +1,75 @@
 body{
     background-color: black;
+    
 }
+
+.contenedor-flex {
+    display: flex;
+    justify-content: space-between; /* Distribuye los elementos con espacio entre ellos */
+}
+
+.columna {
+    flex: 1; /* Ocupa todo el espacio disponible */
+    margin-right: 20px; /* Margen entre las columnas */
+}
+
+/* Estilos adicionales según tu diseño */
+#contenido {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .contenedor-flex {
+        flex-direction: column; /* Cambia a disposición de columna en pantallas pequeñas */
+    }
+    
+    .columna {
+        margin-right: 0; /* Elimina el margen entre columnas en pantallas pequeñas */
+        margin-bottom: 20px; /* Añade espacio entre las columnas en pantallas pequeñas */
+    }
+}
+
 
 h1{
     color: white;
 }
+
 header{
+    padding: 1.5rem;
     display: flex;
+    background-color: black;
+    color: white;
+    border-bottom: 1px solid #F94616;
+
+}
+
+#imagen{
+    width: 10%;
+    height: 80px;
+    margin: 5px;
+}
+
+.menu{
+    font-size: 150%;
+    color: white;
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li{
+    display: inline;
+}
+
+.menu:hover {
+    color: #F94616;
 }
 
 .BgTitle{

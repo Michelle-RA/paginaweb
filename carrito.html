@@ -11,34 +11,67 @@
 </head>
 
 <body>
-    <table id="tablaCarrito" style="width: 80%; text-align: center;">
-        <tbody>
-            <tr>
-                <td>
-                    <header class="text-white">
-                        <img id="imagen" src="src/imagenes/logo.png" alt="">
-                    </header><br>
-                </td>
-                <td>
-                    <h3 class="BgTitle">P<i class="BgTitleW">roductos</i> A<i class="BgTitleW">gregados</i>
-                    </h3>
+    <header class="text-white d-flex ">
+        <img id="imagen" src="src/imagenes/logo.png" alt="">
+        <nav>
+            <ul>
+                <li id="carrito"><a href="index.html" class="menu"><i class="fa fa-arrow-left"
+                            aria-hidden="true"></i></a></li>
+                <li><a href="index.html" class="menu">Inicio</a></li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </ul>
+        </nav>
+    </header>
 
-                    <h6 class="titulos">costillas al vapor</h6>
-                    <img id="imagenes" src="src/imagenes/costillas-de-cerdo-parrilla.webp"
-                        alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <h6 class="titulos">Hamburguesa de la casa</h6>
-                    <img id="imagenes" src="src/imagenes/hamburguesa-parrilla.jpg" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <h6 class="titulos">Salchichas asadas</h6>
-                    <img id="imagenes" src="src/imagenes/salchichas-salchichas-parrilla.jpg" alt=""><br><br><br>
+    <div id="contenido" class="contenedor-flex">
+        <div class="columna">
+            <h3 class="BgTitle">Productos Agregados</h3>
+            <h6 class="titulos">Costillas al vapor</h6>
+            <img id="imagenes" src="src/imagenes/costillas-de-cerdo-parrilla.webp" alt="">
+            <h6 class="titulos">Salchichas asadas</h6>
+            <img id="imagenes" src="src/imagenes/salchichas-salchichas-parrilla.jpg" alt="">
+        </div>
+        <div class="columna">
+            <form>
+                <h3 class="BgTitle">Datos De Envío</h3>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Nombre completo</label>
+                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        required>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Celular</label>
+                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        required>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Dirección</label>
+                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        required>
+                </div>
+                <div class="mb-3">
+                    <label for="disabledSelect" class="form-label">Forma de pago</label>
+                    <select id="disabledSelect" class="form-select" required>
+                        <option>Efectivo</option>
+                        <option>Transferencia</option>
+                        <option>Tarjeta de crédito</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btnColor">Enviar</button>
+            </form>
+        </div>
+    </div>
 
-                    <a href="datosEnvio.html" class="btn btnColor">Completar datos de envio</a>
-                </td>
-            </tr>
-        </tbody>
-    </table>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
+        </script>
+    <script src="https://kit.fontawesome.com/e804082fef.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
