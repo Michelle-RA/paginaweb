@@ -1,43 +1,13 @@
-body{
+body {
     background-color: black;
-    
+
 }
 
-.contenedor-flex {
-    display: flex;
-    justify-content: space-between; /* Distribuye los elementos con espacio entre ellos */
-}
-
-.columna {
-    flex: 1; /* Ocupa todo el espacio disponible */
-    margin-right: 20px; /* Margen entre las columnas */
-}
-
-/* Estilos adicionales según tu diseño */
-#contenido {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
+h1 {
     color: white;
 }
 
-@media (max-width: 768px) {
-    .contenedor-flex {
-        flex-direction: column; /* Cambia a disposición de columna en pantallas pequeñas */
-    }
-    
-    .columna {
-        margin-right: 0; /* Elimina el margen entre columnas en pantallas pequeñas */
-        margin-bottom: 20px; /* Añade espacio entre las columnas en pantallas pequeñas */
-    }
-}
-
-
-h1{
-    color: white;
-}
-
-header{
+header {
     padding: 1.5rem;
     display: flex;
     background-color: black;
@@ -46,25 +16,25 @@ header{
 
 }
 
-#imagen{
+#imagen {
     width: 10%;
     height: 80px;
     margin: 5px;
 }
 
-.menu{
+.menu {
     font-size: 150%;
     color: white;
     text-decoration: none;
 }
 
-nav{
+nav {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-li{
+li {
     display: inline;
 }
 
@@ -72,29 +42,42 @@ li{
     color: #F94616;
 }
 
-.BgTitle{
-    color: #F94616 ;
+.BgTitle {
+    color: #F94616;
 }
 
-.BgTitleW{
+.BgTitleW {
     color: white;
 }
 
-#imagenes{
-    width: 20%;
-    height: 20%;
-}
-
-a{
-    text-decoration: none;
-    border-radius: 1px solid #F94616;
-}
-
-.titulos{
-    color: white;
-}
-
-.btnColor{
+.btnColor {
     color: #ffffff;
     background-color: #F94616;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 14px;
+}
+
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25d366;
+    color: white;
+    border-radius: 50%;
+    padding: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+.whatsapp-button i {
+    font-size: 24px;
+}
+
+.pointer{
+    cursor: pointer;
 }
