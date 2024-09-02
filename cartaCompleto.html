@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="src/imagenes/logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="src/cartaCompleta.css">
+    <title>El Fogón Encantado</title>
+</head>
+
+<body>
+    <header class="text-white d-flex ">
+        <img id="imagen" src="src/imagenes/logo.png" alt="">
+        <nav>
+            <ul>
+                <li><a href="index.html" class="menu">Inicio</a></li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <li><a href="cartaCompleto.html" class="menu">Carta</a></li>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <li id="carrito"><a href="carrito.html" class="menu"><i class="fas fa-shopping-cart"></i></a></li>
+            </ul>
+        </nav>
+    </header><br>
+
+    <div class="text-center container mb-5 mt-4">
+        <h2 class="BgTitle  ">N<i class="BgTitleW">uestro</i> M<i class="BgTitleW">enú</i> </h2>
+        <h4 class="text-white" >En nuestro restaurante, nos especializamos en ofrecerte una experiencia gastronómica única con una variedad
+            de
+            platos a la parrilla que deleitarán tus sentidos. Utilizamos los mejores ingredientes frescos y de alta
+            calidad
+            para asegurarnos de que cada bocado sea una explosión de sabor.</h4>
+        <p></p>
+    </div>
+    <div class="container text-white mb-5">
+        <div>
+            <select class="form-select select-half " aria-label="Default select example" id="menu-select">
+                <option selected>Filtrar</option>
+                <option value="#cortes-carne">Cortes de carne</option>
+                <option value="#platos-especiales">Platos especiales</option>
+                <option value="#entradas">Entradas</option>
+                <option value="#comidas-rapidas">Comidas Rapidas</option>
+                <option value="#postres">Postres</option>
+                <option value="#cocteleria-bar">Cocteleria y Bar</option>
+            </select>
+        </div><br>
+
+        <div class="">
+            <div id="cortes-carne" class="row">
+                <h2>Cortes de Carne</h2>
+                <div class="col-lg-3 col-md-4">
+                    <div class="card" style="height: 28rem;">
+                        <img src="src/imagenes/pescado-dorado-parrilla.jpg" class="card-img-top cardImg" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Pescado a la Parrilla</h5>
+                            <p class="card-text">Filetes de pescado como salmón, tilapia o trucha, marinados y asados
+                                para un sabor fresco y ahumado.</p>
+                        </div>
+                        <a href="#" class="btn btnColor">Agregar</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 ">
+                    <div class="card" style="height: 28rem;">
+                        <img src="src/imagenes/costillas-de-cerdo-parrilla.webp" class="card-img-top cardImg" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Costillas de Cerdo a la Parrilla</h5>
+                            <p class="card-text">Costillas marinadas y asadas lentamente para obtener una carne tierna y
+                                jugosa.</p>
+                        </div>
+                        <a href="#" class="btn btnColor">Agregar</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4">
+                    <div class="card" style="height: 28rem;">
+                        <img src="src/imagenes/brochetas-de-carne-y-verdura.jpg" class="card-img-top cardImg" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Brochetas de Carne y Verduras</h5>
+                            <p class="card-text">Trozos de carne de res o pollo intercalados con pimientos, cebolla y
+                                champiñones, asados en brochetas.</p>
+                        </div>
+                        <a href="#" class="btn btnColor">Agregar</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4">
+                    <div class="card" style="height: 28rem;">
+                        <img src="src/imagenes/churrasco-a-la-parrilla.webp" class="card-img-top cardImg" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Churrasco</h5>
+                            <p class="card-text">Un corte de carne de res marinado en chimichurri y asado a la parrilla,
+                                popular en la cocina sudamericana.</p>
+                        </div>
+                        <a href="#" class="btn btnColor">Agregar</a>
+                    </div>
+                </div>
+            </div><br>
+
+            <div id="platos-especiales" class="row">
+                <h2>Platos especiales</h2>
+                <div class="col-lg-3 col-md-4">
+                    <div class="card" style="height: 28rem;">
+                        <img src="src/imagenes/Trigrillo.webp" class="card-img-top cardImg" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Trigrillo a la Parrilla</h5>
+                            <p class="card-text">corte de carne al carbon, jugoso y fresco, con un toque de
+                                salsa de la casa, acompañado con verduras.</p>
+                        </div>
+                        <a href="#" class="btn btnColor">Agregar</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4">
+                    <div class="card" style="height: 28rem;">
+                        <img src="src/imagenes/lomo de cerdo al carbon.jpg" class="card-img-top cardImg" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Lomo de cerdo al carbon</h5>
+                            <p class="card-text">Un corte de carne fresco y jugoso, con un sabor
+                                ahumado acompañado de papas a la francesa.</p>
+                        </div>
+                        <a href="#" class="btn btnColor">Agregar</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4">
+                    <div class="card" style="height: 28rem;">
+                        <img src="src/imagenes/gajos con patas.avif" class="card-img-top cardImg" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Gajos asados</h5>
+                            <p class="card-text">Gajos un corte de carne especial, con un sabor
+                                ahumado y acompañada con nuestra salsa de la casa artesanal.</p>
+                        </div>
+                        <a href="#" class="btn btnColor">Agregar</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4">
+                    <div class="card" style="height: 28rem;">
+                        <img src="src/imagenes/beef steak.webp" class="card-img-top cardImg" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Filete Gratinado</h5>
+                            <p class="card-text">Filetes de cerdo asado, con papas a la francesa
+                                y compañado de nuestra deliciosa salsa de la casa artesanal.</p>
+                        </div>
+                        <a href="#" class="btn btnColor">Agregar</a>
+                    </div>
+                </div>
+            </div><br>
+
+            <div id="entradas" class="row">
+                <h2>Entradas</h2>
+                <div class="col-lg-3 col-md-4">
+                    <div class="card" style="height: 28rem;">
+                        <img src="src/imagenes/pollo a la brasa.jpg" class="card-img-top cardImg" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Alitas a la brasa</h5>
+                            <p class="card-text">Nuestra deliciosa entrada con alitas de pollo
+                                con sabor ahumado y jugosa acompañada de verduras y salsa de ajo
+                                artesanal.</p>
+                        </div>
+                        <a href="#" class="btn btnColor">Agregar</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4">
+                    <div class="card" style="height: 28rem;">
+                        <img src="src/imagenes/chuzo mixto.jpeg" class="card-img-top cardImg" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Chuzo Mixto</h5>
+                            <p class="card-text">Chuzo mixto que contiene, chicharron, filete de cerdo,
+                                cañon de cerdo y todo esto asado con nuestro aceite endulzado
+                                con ajo.</p>
+                        </div>
+                        <a href="#" class="btn btnColor">Agregar</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4">
+                    <div class="card" style="height: 28rem;">
+                        <img src="src/imagenes/chichoarron al carbon.jpg" class="card-img-top cardImg" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Chicharron al Carbon</h5>
+                            <p class="card-text">Nuestra mejor entrada de trozos de chicharron ahumado, es crujiente y
+                                con un sabor
+                                aliñado que lo hace diferente algun otro.</p>
+                        </div>
+                        <a href="#" class="btn btnColor">Agregar</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4">
+                    <div class="card" style="height: 28rem;">
+                        <img src="src/imagenes/brochetas.avif" class="card-img-top cardImg" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Brochetas</h5>
+                            <p class="card-text">Brochetas de cerdo asadas, previamente bañadas en nuestra salsa de la
+                                casa
+                                convirtiendolas en un trozo de carne jugoso y con un sabor delicioso.</p>
+                        </div>
+                        <a href="#" class="btn btnColor">Agregar</a>
+                    </div>
+                </div>
+            </div><br>
+
+            <div id="comidas-rapidas" class="row">
+                <h2>Comidas Rapidas</h2>
+                <div class="col-lg-3 col-md-4">
+                    <div class="card" style="height: 28rem;">
+                        <img src="src/imagenes/sandwich2.jpeg" class="card-img-top cardImg" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Sandwich Especial</h5>
+                            <p class="card-text">Sandwich a la parrilla con verduras, jamos y queso
+                                y acompañado con salsa de queso y de ajo.</p>
+                        </div>
+                        <a href="#" class="btn btnColor">Agregar</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4">
+                    <div class="card" style="height: 28rem;">
+                        <img src="src/imagenes/perro.jpg" class="card-img-top cardImg" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Perro Especial</h5>
+                            <p class="card-text">Perro Especial contiene salchicha ahumada
+                                extra queso, y papitas aliñadas con salsa de ajo y salsa artesanal.</p>
+                        </div>
+                        <a href="#" class="btn btnColor">Agregar</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4">
+                    <div class="card" style="height: 28rem;">
+                        <img src="src/imagenes/hamburguesa-parrilla.jpg" class="card-img-top cardImg" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Hamburguesa a la Parrilla</h5>
+                            <p class="card-text">Hamburguesa a la parrilla con triple queso fundido
+                                carne aliñada con ajo y verduras.</p>
+                        </div>
+                        <a href="#" class="btn btnColor">Agregar</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4">
+                    <div class="card" style="height: 28rem;">
+                        <img src="src/imagenes/hamburguesaNegra.webp" class="card-img-top cardImg" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Hamburguesa al Carbon</h5>
+                            <p class="card-text">Hamburguesa ahumada con pan integral y asado, contiene
+                                vegetales y carne asada acompañada con salsa de piña y artesanal.</p>
+                        </div>
+                        <a href="#" class="btn btnColor">Agregar</a>
+                    </div>
+                </div>
+            </div><br>
+
+            <div id="postres" class="row">
+                <h2>Postres</h2>
+                <div class="col-lg-3 col-md-4">
+                    <div class="card" style="height: 28rem;">
+                        <img src="src/imagenes/postre1.webp" class="card-img-top cardImg" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Ponque Frutos Rojos</h5>
+                            <p class="card-text">Pila de gofres belgas con fresas y hojas de menta
+                                con miel vertida, lo que lo hace un postre con un sabor mixto y delicioso.</p>
+                        </div>
+                        <a href="#" class="btn btnColor">Agregar</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4">
+                    <div class="card" style="height: 28rem;">
+                        <img src="src/imagenes/postre2.jpeg" class="card-img-top cardImg" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Postre de Chocolate</h5>
+                            <p class="card-text">Este poste junta el sabor del chocolate
+                                con los frutos rojos siendo compacto en su exterior
+                                y en su interior jugoso y dulce.</p>
+                        </div>
+                        <a href="#" class="btn btnColor">Agregar</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4">
+                    <div class="card" style="height: 28rem;">
+                        <img src="src/imagenes/postre3.jpg" class="card-img-top cardImg" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Ponque de Coco</h5>
+                            <p class="card-text">Este especial postre de coco, esta hecho con
+                                coco fresco y chocolate, es muy balanceado en su sabor lo que lo hace
+                                agradable y delicioso.</p>
+                        </div>
+                        <a href="#" class="btn btnColor">Agregar</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4">
+                    <div class="card" style="height: 28rem;">
+                        <img src="src/imagenes/postre5.jpg" class="card-img-top cardImg" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Cheesecake de frutas</h5>
+                            <p class="card-text">Nuestro Especial postre de la casa Cheesecake de frutas,
+                                contiene nuestras frutas secas, lo que lo hace balanceado y especial.</p>
+                        </div>
+                        <a href="#" class="btn btnColor">Agregar</a>
+                    </div>
+                </div>
+            </div><br>
+
+            <div id="cocteleria-bar" class="row">
+                <h2>Cocteleria y Bar</h2>
+                <div class="col-lg-3 col-md-4">
+                    <div class="card" style="height: 28rem;">
+                        <img src="src/imagenes/coctel1.avif" class="card-img-top cardImg" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Coctel de Mango Biche</h5>
+                            <p class="card-text">Coctel con tequila, saborizado con mango Biche
+                                y limon lo que lo hace acido pero con un toque dulce.</p>
+                        </div>
+                        <a href="#" class="btn btnColor">Agregar</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4">
+                    <div class="card" style="height: 28rem;">
+                        <img src="src/imagenes/coctel2.avif" class="card-img-top cardImg" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Martini de Liche</h5>
+                            <p class="card-text">Este coctel viene acompañado con una fruta asiatica
+                                llamada Liche, es resfrescante y esta acompañado con aguardiente o tequila.</p>
+                        </div>
+                        <a href="#" class="btn btnColor">Agregar</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4">
+                    <div class="card" style="height: 28rem;">
+                        <img src="src/imagenes/coctel3.avif" class="card-img-top cardImg" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Coctel de Frutas</h5>
+                            <p class="card-text">Es un coctel fresco, suave y bajo en alcohol, su sabor dulce
+                                lo convierte en un coctel ideal y refrescante.</p>
+                        </div>
+                        <a href="#" class="btn btnColor">Agregar</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4">
+                    <div class="card" style="height: 28rem;">
+                        <img src="src/imagenes/coctel4.jpeg" class="card-img-top cardImg" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Martini de Fresa</h5>
+                            <p class="card-text">La fabulosa combinación de la fresa con el tequila
+                                hace de este martini unico en su sabor.</p>
+                        </div>
+                        <a href="#" class="btn btnColor">Agregar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-4 border-end">
+                    <h3 class="BgTitle">S<i class="BgTitleW">obre</i> N<i class="BgTitleW">osotros</i> </h3>
+                    <p>Somos el mejor restaurante entregando sabores inigualables</p>
+                </div>
+                <div class="col-md-4 border-end">
+                    <h3 class="BgTitle">C<i class="BgTitleW">ontáctanos</i></h3>
+                    <div class="d-flex justify-content-center">
+                        <a href="https://www.facebook.com/elfogonencantado" class="text-white mx-3" target="_blank">
+                            <i class="fab fa-facebook fa-2x"></i>
+                        </a>
+                        <a href="https://www.instagram.com/elfogonencantado" class="text-white mx-3" target="_blank">
+                            <i class="fab fa-instagram fa-2x"></i>
+                        </a>
+                        <a href="https://wa.me/123" class="text-white mx-3" target="_blank">
+                            <i class="fab fa-whatsapp fa-2x"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <h3 class="BgTitle">D<i class="BgTitleW">irección</i></h3>
+                    <p>Medellín, Colombia</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/123" class="whatsapp-button" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+<script>
+    document.getElementById('menu-select').addEventListener('change', function () {
+        var value = this.value;
+        if (value !== "Filtrar") {
+            document.querySelector(value).scrollIntoView({ behavior: 'smooth' });
+        }
+    });
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
+    </script>
+<script src="https://kit.fontawesome.com/e804082fef.js" crossorigin="anonymous"></script>
+
+</html>

@@ -4,41 +4,180 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="src/imagenes/logo.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="src/carrito.css">
-    <title>El Fogón Encantado</title>
+    <title>El Fogón Encantado Michelle</title>
 </head>
 
 <body>
-    <table id="tablaCarrito" style="width: 80%; text-align: center;">
-        <tbody>
-            <tr>
-                <td>
-                    <header class="text-white">
-                        <img id="imagen" src="src/imagenes/logo.png" alt="">
-                    </header><br>
-                </td>
-                <td>
-                    <h3 class="BgTitle">P<i class="BgTitleW">roductos</i> A<i class="BgTitleW">gregados</i>
-                    </h3>
+    <header class="text-white d-flex ">
+        <img id="imagen" src="src/imagenes/logo.png" alt="">
+        <nav>
+            <ul>
+                <li><a href="index.html" class="menu">Inicio</a></li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <li><a href="cartaCompleto.html" class="menu">Carta</a></li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </ul>
+        </nav>
+    </header><br>
 
-                    <h6 class="titulos">costillas al vapor</h6>
-                    <img id="imagenes" src="src/imagenes/costillas-de-cerdo-parrilla.webp"
-                        alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <h6 class="titulos">Hamburguesa de la casa</h6>
-                    <img id="imagenes" src="src/imagenes/hamburguesa-parrilla.jpg" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <h6 class="titulos">Salchichas asadas</h6>
-                    <img id="imagenes" src="src/imagenes/salchichas-salchichas-parrilla.jpg" alt=""><br><br><br>
 
-                    <a href="datosEnvio.html" class="btn btnColor">Completar datos de envio</a>
-                </td>
-            </tr>
-        </tbody>
-    </table>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
+    <div class="container">
+        <div id="productTable">
+            <h2 class="BgTitle mt-4 ">P<i class="BgTitleW">roductos</i> A<i class="BgTitleW">gregados</i></h2>
+            <table id="productTable" class="table text-white mt-4">
+                <thead>
+                    <tr>
+                        <th scope="col">Producto</th>
+                        <th scope="col">Precio</th>
+                        <th scope="col">Cantidad</th>
+                        <th scope="col">Total</th>
+                        <th scope="col">Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    <tr>
+                        <th>Costillas de cerdo a la parrilla</th>
+                        <td>40.000</td>
+                        <td>1</td>
+                        <td>40.000</td>
+                        <td><i class="fas fa-trash fa-1x pointer "></i></td>
+                    </tr>
+                    <tr>
+                        <th>Bife de chorizo</th>
+                        <td>35.000</td>
+                        <td>2</td>
+                        <td>70.000</td>
+                        <td><i class="fas fa-trash fa-1x pointer "></i></td>
+                    </tr>
+                    <tr>
+                        <th>Churrasco</th>
+                        <td>50.000</td>
+                        <td>3</td>
+                        <td>150.000</td>
+                        <td><i class="fas fa-trash fa-1x pointer "></i></td>
+                    </tr>
+                    <tr>
+                        <th>Salchichas a la parrilla</th>
+                        <td>45.000</td>
+                        <td>1</td>
+                        <td>45.000</td>
+                        <td><i class="fas fa-trash fa-1x pointer "></i></td>
+                    </tr>
+                    <tr>
+                        <th>Hamburguesas gourmet</th>
+                        <td>40.000</td>
+                        <td>1</td>
+                        <td>40.000</td>
+                        <td><i class="fas fa-trash fa-1x pointer "></i></td>
+                    </tr>
+                    <tr>
+                        <th>Pescado a la Parrilla</th>
+                        <td>50.000</td>
+                        <td>4</td>
+                        <td>200.000</td>
+                        <td><i class="fas fa-trash fa-1x pointer "></i></td>
+                    </tr>
+                    <tr>
+                        <th>Coctel margarita</th>
+                        <td>50.000</td>
+                        <td>2</td>
+                        <td>100.000</td>
+                        <td><i class="fas fa-trash fa-1x pointer "></i></td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="text-white mt-3">
+                <h5 class="BgTitle">Total:<i class="text-white"> 645.000</i></h5>
+                <button onclick="scrollToForm()" type="submit" class="btn btnColor mt-3">Continuar Compra</button>
+            </div>
+        </div>
+
+
+        <div id="datosDeEnvio" class="text-white">
+            <h2 class="BgTitle mt-4">D<i class="BgTitleW">atos</i> D<i class="BgTitleW">e</i> E<i
+                    class="BgTitleW">nvío</i></h2>
+            <form>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Nombre completo</label>
+                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        required>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Celular</label>
+                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        required>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Dirección</label>
+                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        required>
+                </div>
+                <div class="mb-3">
+                    <label for="disabledSelect" class="form-label">Forma de pago</label>
+                    <select id="disabledSelect" class="form-select" required>
+                        <option>Efectivo</option>
+                        <option>Transferencia</option>
+                        <option>Tarjeta de crédito</option>
+                    </select>
+                </div>
+            </form>
+            <button type="submit" class="btn btnColor mb-4">Continuar con el Pago</button>
+            <!-- acá termina el proceso y pasa a la pasarela de pago -->
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-4 border-end">
+                    <h3 class="BgTitle">S<i class="BgTitleW">obre</i> N<i class="BgTitleW">osotros</i> </h3>
+                    <p>Somos el mejor restaurante entregando sabores inigualables</p>
+                </div>
+                <div class="col-md-4 border-end">
+                    <h3 class="BgTitle">C<i class="BgTitleW">ontáctanos</i></h3>
+                    <div class="d-flex justify-content-center">
+                        <a href="https://www.facebook.com/elfogonencantado" class="text-white mx-3" target="_blank">
+                            <i class="fab fa-facebook fa-2x"></i>
+                        </a>
+                        <a href="https://www.instagram.com/elfogonencantado" class="text-white mx-3" target="_blank">
+                            <i class="fab fa-instagram fa-2x"></i>
+                        </a>
+                        <a href="https://wa.me/123" class="text-white mx-3" target="_blank">
+                            <i class="fab fa-whatsapp fa-2x"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <h3 class="BgTitle">D<i class="BgTitleW">irección</i></h3>
+                    <p>Medellín, Colombia</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <a href="https://wa.me/123" class="whatsapp-button" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
 </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+<script>
+    function scrollToForm() {
+        const productTable = document.getElementById('productTable');
+        productTable.style.display = 'none';
+        const formElement = document.getElementById('datosDeEnvio');
+        const yOffset = formElement.getBoundingClientRect().top + window.pageYOffset;
 
+        window.scrollTo({ top: yOffset, behavior: 'smooth' });
+    }
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
+    </script>
+<script src="https://kit.fontawesome.com/e804082fef.js" crossorigin="anonymous"></script>
 </html>
